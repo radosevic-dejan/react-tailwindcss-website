@@ -6,8 +6,7 @@ const linkData =["Home", "About", "Blog", "Contact"];
 
 const NavList = (props) => {
     const {children, navType} = props;
-   const {style} = useContext(NavBarContext);
-   console.log(style)
+    const {style} = useContext(NavBarContext);
 
   return (
     <ul className={navType === "dropdown" ? style.navListDropDown : style.navListNormal}>

@@ -15,7 +15,7 @@ module.exports = {
         // huge screens - giga size
         '2xl': '1536px',
       }
-    },
+    }
   },
   plugins: [],
 }

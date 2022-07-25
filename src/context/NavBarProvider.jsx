@@ -8,7 +8,7 @@ const style = {
 };
 
 export default function NavBarProvider ({ children }) {
-    console.log("NAV BAR PROVIDER")
+    
     return <NavBarContext.Provider value={{style}}>  {children} </NavBarContext.Provider>
     
 }
