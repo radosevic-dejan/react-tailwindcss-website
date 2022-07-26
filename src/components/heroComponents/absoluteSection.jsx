@@ -1,27 +1,23 @@
-import {
-  HiPaperAirplane,
-  HiDatabase,
-  HiCloudUpload,
-  HiServer,
-} from "react-icons/hi";
+import { Icon } from "../../helper/icon";
+
+const heroData = [
+  "airplane","database","cloud","server"
+]
 
 function AbsoluteSection() {
   return (
-    <div className="absolute flex flex-col justify-self-center  md:min-w-[760px] bottom-[-5%] max-1  bg-zinc-200 boder border-slate-300 rounded-xl text-center shadow-xl">
-      <p>Services</p>
-      <div className="flex justify-between flex-wrap px-4">
-        <p className="flex px-4 py-2 text-slate-500">
-          <HiCloudUpload className="h-6 text-indigo-500" />
-        </p>
-        <p className="flex px-4 py-2 text-slate-500">
-          <HiDatabase className="h-6 text-indigo-500" />
-        </p>
-        <p className="flex px-4 py-2 text-slate-500">
-          <HiServer className="h-6 text-indigo-500" />
-        </p>
-        <p className="flex px-4 py-2 text-slate-500">
-          <HiPaperAirplane className="h-6 text-indigo-500" />
-        </p>
+    <div className="w-1/2 absolute flex flex-col justify-self-center mt-5 pt-2 md:min-w-[760px] bottom-[-5%] bg-slate-400 boder border-stone-400 rounded-xl text-center shadow-xl">
+      <p>Services</p>      
+      <div className="flex justify-between flex-wrap px-4 pb-4">
+        {
+          heroData.map((item, index) => {
+            return(
+              <div key={index}>
+                <Icon iconType={item} className="h6 text-indigo-500"/>
+              </div>
+            )
+          })
+        }
       </div>
     </div>
   );
