@@ -2,7 +2,7 @@ import {SupportCard} from '../components/suportPage/supportCard';
 
 export const Support = () => {
   return (
-    <div className='w-full h-screen mt-24 '>
+    <div className='w-full mt-24'>
         <div className='w-full h-[700px] bg-gray-800/90 absolute'>
             <img className="w-full h-full object-cover mix-blend-overlay" src="https://cdn.pixabay.com/photo/2022/01/31/19/30/error-6984855_960_720.png" alt="Support page image" />
         </div>

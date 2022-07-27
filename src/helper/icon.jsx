@@ -1,10 +1,8 @@
-import {FaPhoneAlt, FaArrowRight, FaMicrochip} from 'react-icons/fa';
-import {MdSupportAgent} from 'react-icons/md';
+import { FaPhoneAlt, FaArrowRight, FaMicrochip } from 'react-icons/fa';
+import { GrWordpress, GrCheckmark } from 'react-icons/gr';
+import { MdSupportAgent, MdDesignServices, MdPhotoCamera } from 'react-icons/md';
 import { TiThMenu, TiTimes } from "react-icons/ti";
 import {
-    HiPaperAirplane,
-    HiDatabase,
-    HiCloudUpload,
     HiServer,
   } from "react-icons/hi";
 
@@ -24,12 +22,14 @@ function Icon({iconType, ...rest}) {
                 return <TiThMenu {...rest}/>;
             case 'close':
                 return <TiTimes {...rest}/>;
-            case 'airplane':
-                return <HiPaperAirplane {...rest}/>;
-            case 'database':
-                return <HiDatabase {...rest}/>;
-            case 'cloud':
-                return <HiCloudUpload {...rest}/>;
+            case 'design':
+                return <MdDesignServices {...rest}/>;
+            case 'wordpress':
+                return <GrWordpress {...rest}/>;
+            case 'camera':
+                return <MdPhotoCamera {...rest}/>;
+            case 'check':
+                return <GrCheckmark {...rest}/>;
             case 'server':
                 return <HiServer {...rest}/>;
             default:
