@@ -2,7 +2,7 @@ import {ServiceCard} from '../components/suport/serviceCard';
 
 export const Services = () => {
   return (
-    <div className='w-full mt-24'>
+    <div name="services" className='w-full mt-24'>
         <div className='w-full h-[700px] bg-[#2e3b46]/80 absolute'>
             <img className="w-full h-full object-cover mix-blend-overlay" src="https://cdn.pixabay.com/photo/2016/09/07/10/04/education-1651259_960_720.jpg" alt="Support page image" />
         </div>

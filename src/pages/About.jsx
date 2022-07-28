@@ -7,7 +7,7 @@ const aboutData = [
 ]
 export const About = () => {
   return (
-    <div className='w-full my-32'>
+    <div name="about" className='w-full my-32'>
         <div className="max-w-7xl mx-auto">
             <div className="text-center">
                 <h2 className="text-5xl text-[#2e3b46] font-bold">Trusted by people accross the world</h2>

@@ -10,7 +10,7 @@ const footerData = [
 export const Footer = () => {
   return (
     <>
-    <div className="mx-8 grid md:grid-cols-3">
+    <div name="footer" className="mx-8 grid md:grid-cols-3">
       {footerData.map((section, index) => {
         return (
           <FooterSection
