@@ -4,7 +4,7 @@ export const BillingType = (props) => {
     <div>
       <p className="text-6xl font-bold py-4 flex">
         {monthlyPrice}
-        <span className="text-xl text-slate-500 flex flex-col justify-end">
+        <span className="text-xl text-[#2e3b46]/90 flex flex-col justify-end">
           /mo
         </span>
       </p>

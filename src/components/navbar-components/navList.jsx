@@ -2,7 +2,7 @@ import {useContext} from 'react';
 import {NavLink} from './navItem';
 import { NavBarContext } from '../../context/NavBarContext';
 
-const linkData =["Home", "About", "Services","Blog", "Contact"];
+const linkData =["Home", "Marketing", "Services","Blog", "Contact"];
 
 const NavList = (props) => {
     const {children, navType} = props;

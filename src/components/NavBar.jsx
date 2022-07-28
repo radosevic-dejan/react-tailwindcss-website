@@ -19,8 +19,8 @@ function NavBar() {
           </div>
 
           <div className="hidden md:flex pr-4">
-            <Button style="border-none bg-transparent text-black mr-4" text="Sign In" />
-            <Button style="px-8 py-3" text="Sign Up"/>
+            <Button style="border-none bg-transparent text-[#2e3b46] mr-4 hover:text-[#fa6763] " text="Sign In" />
+            <Button style="px-8 py-3 border border-[#fa6763] bg-[#fa6763] text-[#2e3b46] hover:text-[#fa6763] hover:bg-white" text="Sign Up"/>
           </div>
           
           {/* show hamburger menu when widht < md */}
@@ -33,8 +33,8 @@ function NavBar() {
         {
           nav ? <NavList navType="dropdown">
           <div className="flex flex-col my-4">
-            <Button style="bg-transparent text-indigo-500 px-8 py-3 mb-4" text="Sign In"/>
-            <Button style="px-8 py-3" text="Sign Up"/>
+            <Button style="bg-transparent text-[#2e3b46] px-8 py-3 mb-4 hover:text-[#fa6763]" text="Sign In"/>
+            <Button style="px-8 py-3 bg-[#fa6763]" text="Sign Up"/>
           </div>
         </NavList> : null
         }

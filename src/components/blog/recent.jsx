@@ -1,11 +1,11 @@
-import React from 'react'
+import { Icon } from "../../helper/icon";
 
 export const Recent = (props) => {
   const {title} = props;
   return (
     <div className="flex">
-        <div>
-            Icon
+        <div className="pr-1 ">
+            <Icon iconType="check" className="bg-[#fa6763] text-white"/>
         </div>
         <div>
             <h3 className="font-bold text-lg">{title}</h3>

@@ -1,12 +1,11 @@
 import { CallToAction } from "./callToAction";
-import { SupportOffer } from "./supportOffer";
+import { ServiceOffer } from "./serviceOffer";
 
-export const SupportCard = (props) => {
-    const {icon} = props;
+export const ServiceCard = (props) => {
+  const { icon } = props;
   return (
     <div className="bg-white rounded-xl shadow-2xl">
-
-      <SupportOffer icon={icon} />
+      <ServiceOffer />
       <CallToAction />
     </div>
   );
